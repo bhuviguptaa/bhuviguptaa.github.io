@@ -1,0 +1,252 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+li {
+  margin-left: 30px;
+  font-size: 60px;
+  cursor: pointer;
+}
+
+
+.nav-container {
+  display:flex;
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+li.nav-item {
+  margin-left: 0;
+  display: inline-block;
+}
+
+.nav-item button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 70px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: 0.2s ease;
+  cursor: pointer;
+  margin-top: 55px;
+  margin-left: 28px;
+}
+.nav-item button:hover {
+  background-color: red(255, 255, 255, 0.1);
+}
+
+
+.header {
+  position: relative;
+  display: flex;
+  gap:70px;
+  padding: 10px 20px; 
+  top:0;
+  left:0;
+}
+
+
+#main {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+
+.background-title {
+  position: absolute;
+  z-index: 2;
+  margin-top: 430px;
+  margin-left: 52px;
+  width: 1310px;
+  height: 950px;
+  color: white;
+}
+
+
+.background {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  position: fixed;
+  top: 0;
+}
+
+
+.bg-contents {
+  z-index: 3;
+  position: absolute;
+  color: white;
+  margin-top: 1525px;
+  margin-left: 80px;
+  font-size: 50px;
+ 
+}
+
+
+.logo {
+  width: 335px;
+  height: 140px;
+  margin-left: 15px;
+  margin-top: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.heading {
+  font-size: 80px;
+  margin-bottom: 4px;
+  z-index: 2;
+  color: white;
+  position: absolute;
+  margin-top: 1415px;
+  margin-left: 80px;
+}
+
+#content-row{
+    width:96vw;
+    position: absolute;
+    color:white;
+    margin-top: 185px;
+    margin-left: 20px;
+    font-size: 80px;
+    white-space: nowrap;
+    display: inline-block;    
+}
+.you{
+  margin-left: 45px;
+}
+
+.button-group {
+    position: relative;
+    display: flex;
+    gap: 1rem;
+    margin-top: 50px;
+    width: 700px;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 43px;;
+    font-weight: bold;
+    padding: 15px 20px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition:  0.2s ease;
+    width: 800px;
+    height: 130px;
+    margin-left: 20px;
+} 
+
+
+
+  .btn.play {
+    background-color: rgb(236, 233, 233);
+    color: black;
+    font-size: 60px;
+  }
+
+  .btn.play:hover {
+    background-color: #bdb8b8;
+  }
+
+
+  .btn.info {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+  }
+
+  .btn.info:hover {
+    background-color: rgba(109, 109, 110, 0.4);
+  }
+
+
+  .tgp{
+    height: 730px;
+    width: 730px;
+  }
+
+  .wed{
+    height: 730px;
+    width: 730px;
+  }
+  .office{
+    height: 730px;
+    width:730px;
+  }
+  .me{
+    height: 730px;
+    width: 730px;
+  }
+  .narcos{
+    height: 730px;
+    width: 730px;
+  }
+  .demon{
+    height: 730px;
+    width:730px;
+  }
+  .money{
+    height: 730px;
+    width: 730px;
+  }
+  .tah{
+    height: 730px;
+    width: 730px;
+  }
+
+ #others{
+  display:inline-block;
+  white-space: nowrap;
+  overflow-y: hidden;
+  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 60px;
+  cursor: pointer;
+ }
+ #others img:hover{
+  height: 775px;
+  width: 775px;
+ }
+
+ #icons{
+  position: absolute;
+  display: inline-block;
+  margin-top: 70px;
+  right: 90px; 
+  color: rgb(255, 255, 255); 
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+#icons img{
+  margin-right: 10px;
+  height: 85px;
+  width: 90px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+body {
+  overflow: auto;
+}
